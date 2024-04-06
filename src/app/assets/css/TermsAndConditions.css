@@ -1,0 +1,37 @@
+.terms-and-conditions {
+    display: flex;
+    align-items: center;
+}
+
+.terms-and-conditions label {
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.terms-and-conditions label input[type="checkbox"] {
+    display: none;
+}
+
+.terms-and-conditions label input[type="checkbox"] + span {
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    border: 1px solid #0165FC;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.terms-and-conditions label input[type="checkbox"]:checked + span {
+    background-color: #0165FC;
+}
+
+.terms-and-conditions label a {
+    color: #0165FC;
+    margin-left: 5px;
+    text-decoration: none;
+}
