@@ -48,8 +48,7 @@ body, html {
 .onboard3 .text-container {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, 60%);
+  left: 10%;
   color: white;
   width: 80%;
 }
@@ -75,11 +74,4 @@ body, html {
 .onboard3 .text-container Button {
   background-color: #0165FC;
   margin-top: 50px;
-}
-
-@media screen and (max-width: 400px) {
-  .onboard2 .text-container,
-.onboard3 .text-container {
-  transform: translate(-50%, -5%);
-}
 }
