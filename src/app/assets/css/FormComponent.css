@@ -38,6 +38,20 @@
   text-align: left;
 }
 
+.forgotPassword {
+  text-align: right;
+  margin-top: -5%;
+}
+
+.forgotPassword a {
+  text-decoration: none;
+  color: #0165FC;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 18.75px;
+}
+
 .submit-button {
   width: 100%;
   padding: 10px;
@@ -50,7 +64,7 @@
   margin-top: 20px;
 }
 
-.additional-tag{
+.additional-tag {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
