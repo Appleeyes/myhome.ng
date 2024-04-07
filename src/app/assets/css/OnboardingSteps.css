@@ -1,18 +1,18 @@
-.onboard2 {
-  text-align: center;
-  background-image: url('../images/onboard-woman.png');
-  background-size: cover;
-  background-position: center;
+body, html {
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
-
 
 .onboard1 {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .onboard1 img {
@@ -75,4 +75,11 @@
 .onboard3 .text-container Button {
   background-color: #0165FC;
   margin-top: 50px;
+}
+
+@media screen and (max-width: 400px) {
+  .onboard2 .text-container,
+.onboard3 .text-container {
+  transform: translate(-50%, -5%);
+}
 }
