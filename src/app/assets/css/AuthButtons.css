@@ -1,5 +1,7 @@
-.auth-button {
+ .auth-button {
+    text-align: center;
     background-color: #fff;
+    padding: 5px;
     border: none;
 }
 
