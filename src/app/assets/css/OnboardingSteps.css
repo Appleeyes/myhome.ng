@@ -47,10 +47,12 @@ body, html {
 .onboard2 .text-container,
 .onboard3 .text-container {
   position: absolute;
-  top: 50%;
-  left: 10%;
-  color: white;
+  color: #fff;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 80%;
+  border: 2px solid red;
 }
 
 .onboard2 .text-container h5,
@@ -75,3 +77,11 @@ body, html {
   background-color: #0165FC;
   margin-top: 50px;
 }
+
+/* @media screen and (max-width: 768px) {
+  button {
+      padding: 8px 20px;
+      font-size: 10px;
+      line-height: 15px;
+  }
+} */
