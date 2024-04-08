@@ -1,6 +1,6 @@
 .pagination-dots {
   position: absolute;
-  bottom: 10%;
+  bottom: 10vh;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
