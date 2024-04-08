@@ -1,6 +1,6 @@
 import React from 'react';
 import "../assets/css/OnboardingSteps.css";
-import Button from "../components/ButtonComponent";
+import Button from "./ButtonComponent";
 
 function OnboardingStep2() {
   return (

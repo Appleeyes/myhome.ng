@@ -54,14 +54,17 @@
 
 .submit-button {
   width: 100%;
-  padding: 10px;
-  font-size: 16px;
+  padding: 8px;
   background-color: #0165FC;
   color: #fff;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   margin-top: 20px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
 }
 
 .additional-tag {
