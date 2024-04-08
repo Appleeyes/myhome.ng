@@ -9,7 +9,7 @@ function OnboardingStep3() {
       <div className="text-container">
         <h5>Flexible Payment</h5>
         <p>Low interest and flexible payment options</p>
-        <Button link="#/plans">Next</Button>
+        <Button link="/signup-role">Next</Button>
       </div>
       </div>
     </div>
