@@ -1,0 +1,113 @@
+.profile-container {
+    padding: 20px;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.profile-header p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+
+.profile {
+    display: flex;
+    background-color: #F3F5F8;
+    align-items: stretch;
+    border-top-left-radius: 50px;
+}
+
+.profile .profile-info {
+    flex: 0 0 35%;
+    background-color: #CCE0FE;
+    padding: 20px 0 50px 0;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.profile .profile-info img {
+    margin-top: 30%;
+    margin-left: 20%;
+}
+
+.profile .profile-info h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.09px;
+    text-align: center;
+}
+
+.profile .profile-view {
+    flex: 0 0 60%;
+    padding: 20px 0 50px 0;
+}
+
+.profile .profile-view h3 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    text-align: left;
+}
+
+.profile .display-view {
+    display: flex;
+    margin-top: -25px;
+    position: relative;
+}
+
+.profile .display-view h5 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+.profile .display-view p {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile .display-view span {
+    display: block;
+}
+
+.profile .display-view hr {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    border: none;
+    height: 1px;
+    background-color: #000;
+    margin-top: 20px;
+    z-index: 0;
+    width: 50%;
+}
+
+.actions-container {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.action-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E7E9FA;
+}
+
+.action-item p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}

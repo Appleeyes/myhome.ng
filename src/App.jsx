@@ -4,6 +4,7 @@ import Login from './app/pages/Login';
 import Onboarding from './app/pages/Onboarding';
 import SignupRole from './app/pages/SignupRole';
 import Access from './app/pages/Access';
+import UserProfile from './app/pages/UserProfile';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/onboarding" component={Onboarding} />
         <Route path="/signup-role" component={SignupRole} />
         <Route path="/access" component={Access} />
+        <Route path="/user/profile" component={UserProfile} />
       </Switch>
     </Router>
   );
