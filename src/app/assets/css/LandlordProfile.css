@@ -1,0 +1,28 @@
+.landlord-profile .activity {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.activity-item {
+    display: flex;
+    background-color: #F3F5F8;
+    border-radius: 15px;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+
+
+.activity-item p {
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #0165FC;
+}

@@ -5,6 +5,7 @@ import Onboarding from './app/pages/Onboarding';
 import SignupRole from './app/pages/SignupRole';
 import Access from './app/pages/Access';
 import UserProfile from './app/pages/UserProfile';
+import LandlordProfile from './app/pages/LandlordProfile';
 import Footer from './app/components/Footer';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/signup-role" component={SignupRole} />
         <Route path="/access" component={Access} />
         <Route path="/user/profile" component={UserProfile} />
+        <Route path="/landlord/profile" component={LandlordProfile} />
       </Switch>
       <Footer currentRoute={window.location.pathname} />
     </Router>
