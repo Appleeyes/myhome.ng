@@ -1,5 +1,6 @@
 .user-profile .activity {
     display: flex;
+    justify-content: space-between;
     background-color: #F3F5F8;
     margin-top: 30px;
     padding: 5px;
