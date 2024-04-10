@@ -5,6 +5,7 @@ import Onboarding from './app/pages/Onboarding';
 import SignupRole from './app/pages/SignupRole';
 import Access from './app/pages/Access';
 import UserProfile from './app/pages/UserProfile';
+import Footer from './app/components/Footer';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/access" component={Access} />
         <Route path="/user/profile" component={UserProfile} />
       </Switch>
+      <Footer currentRoute={window.location.pathname} />
     </Router>
   );
 }
