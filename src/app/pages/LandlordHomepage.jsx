@@ -5,7 +5,6 @@ import BellIcon from '../assets/images/bell.svg';
 import Receipt from '../assets/images/reciept.svg';
 import FileUpload from '../assets/images/file-upload.svg';
 import PropertyManagement from '../assets/images/home1.png';
-import Home2 from '../assets/images/home2.png';
 import TenantManagement from '../assets/images/activity2.svg';
 import Performance from '../assets/images/activity3.png';
 import SearchComponent from '../components/SearchComponent';
