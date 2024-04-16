@@ -2,6 +2,7 @@ import React from "react";
 import '../assets/css/ProfileComponent.css';
 import ArrowLeft from '../assets/images/arrow-left.svg';
 import ArrowRight from '../assets/images/arrow-right.svg';
+import Footer from '../components/Footer';
 
 function ProfileComponent({
     fullName,
@@ -77,6 +78,7 @@ function ProfileComponent({
                     </div>
                 ))}
             </div>
+            <Footer currentRoute={window.location.pathname} />
         </div>
     )
 }

@@ -3,8 +3,6 @@ import '../assets/css/UserProfile.css';
 import UserAct from '../assets/images/user-activity.svg';
 import ProfileWoman from '../assets/images/profile-woman.png';
 import ArrowRight from '../assets/images/arrow-right.svg';
-import Footer from '../components/Footer';
-
 
 function UserProfile() {
     const actions = [
@@ -33,7 +31,6 @@ function UserProfile() {
                 </div>]}
                 actions={actions}
             />
-            <Footer/>
         </div>
     );
 }
