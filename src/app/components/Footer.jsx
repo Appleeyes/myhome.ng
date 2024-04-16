@@ -14,8 +14,8 @@ import ProfileActive from "../assets/images/profile-active.svg";
 function Footer({ currentRoute }) {
     const getIcon = (route) => {
         switch (route) {
-            case "/":
-                return currentRoute === "/" ? HomeActive : HomeIcon;
+            case "/user/home":
+                return currentRoute === "/user/home" ? HomeActive : HomeIcon;
             case "/#bookmark":
                 return currentRoute === "/#bookmark" ? LoveActive : LoveIcon;
             case "/#search":
@@ -32,22 +32,22 @@ function Footer({ currentRoute }) {
         <div className="footer">
             <ul>
                 <li>
-                    <a href="/" className={currentRoute === "/" ? "active" : ""}>
-                    <img src={getIcon("/")} alt="Home Icon" />
+                    <a href="/user/home" className={currentRoute === "/user/home" ? "active" : ""}>
+                    <img src={getIcon("/user/home")} alt="Home Icon" />
                     </a>
                 </li>
                 <li>
-                    <a href="/#bookmark" className={currentRoute === "/#" ? "active" : ""}>
+                    <a href="/#bookmark" className={currentRoute === "/#bookmark" ? "active" : ""}>
                         <img src={getIcon("/#bookmark")} alt="Love Icon" />
                     </a>
                 </li>
                 <li>
-                    <a href="/#search" className={currentRoute === "/#" ? "active" : ""}>
+                    <a href="/#search" className={currentRoute === "/#search" ? "active" : ""}>
                         <img src={getIcon("/#search")} alt="Search Icon" />
                     </a>
                 </li>
                 <li>
-                    <a href="/#settings" className={currentRoute === "/#" ? "active" : ""}>
+                    <a href="/#settings" className={currentRoute === "/#settings" ? "active" : ""}>
                         <img src={getIcon("/#settings")} alt="Setting Icon" />
                     </a>
                 </li>
