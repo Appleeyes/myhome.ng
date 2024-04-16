@@ -7,6 +7,7 @@ import Access from './app/pages/Access';
 import UserProfile from './app/pages/UserProfile';
 import LandlordProfile from './app/pages/LandlordProfile';
 import UserHome from './app/pages/UserHomepage';
+import LandlordHome from './app/pages/LandlordHomepage';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/user/profile" component={UserProfile} />
         <Route path="/user/home" component={UserHome} />
         <Route path="/landlord/profile" component={LandlordProfile} />
+        <Route path="/landlord/home" component={LandlordHome} />
         <Route path="/" component={Onboarding} />
       </Switch>
     </Router>
