@@ -90,7 +90,7 @@ function UserHomepage() {
             <div className='popular'>
                 <div className='pop-head'>
                     <h1>Popular</h1>
-                    <a href="/#">View all</a>
+                    <a href="/product/recommended">View all</a>
                 </div>
                 <div className='flex-prop'>
                     <div className='property'>
