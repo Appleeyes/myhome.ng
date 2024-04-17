@@ -28,11 +28,11 @@ function UserHomepage() {
                     <img src={Home} alt="Home" />
                     <p>House</p>
                 </a>
-                <a href="/#">
+                <a href="/product/home">
                     <img src={Apartment} alt="Apartment" />
                     <p>Popular</p>
                 </a>
-                <a href="/#">
+                <a href="/user/loan">
                     <img src={Loan} alt="Loan" />
                     <p>Loan</p>
                 </a>
@@ -40,7 +40,7 @@ function UserHomepage() {
             <div className='recommended'>
                 <div className='rec-head'>
                     <h1>Recommended</h1>
-                    <a href="/#">View all</a>
+                    <a href="/product/recommended">View all</a>
                 </div>
                 <div className='flex-prop'>
                     <div className='property'>

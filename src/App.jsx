@@ -9,6 +9,7 @@ import LandlordProfile from './app/pages/LandlordProfile';
 import UserHome from './app/pages/UserHomepage';
 import LandlordHome from './app/pages/LandlordHomepage';
 import HomeType from './app/pages/HomeType';
+import Recommendation from './app/pages/Recommendation';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/landlord/profile" component={LandlordProfile} />
         <Route path="/landlord/home" component={LandlordHome} />
         <Route path="/product/home" component={HomeType} />
+        <Route path="/product/recommended" component={Recommendation} />
         <Route path="/" component={Onboarding} />
       </Switch>
     </Router>
