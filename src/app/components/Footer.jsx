@@ -16,8 +16,8 @@ function Footer({ currentRoute }) {
         switch (route) {
             case "/user/home":
                 return currentRoute === "/user/home" ? HomeActive : HomeIcon;
-            case "/#bookmark":
-                return currentRoute === "/#bookmark" ? LoveActive : LoveIcon;
+            case "/product/bookmarked":
+                return currentRoute === "/product/bookmarked" ? LoveActive : LoveIcon;
             case "/#search":
                 return currentRoute === "/#search" ? SearchActive : SearchIcon;
             case "/#settings":
@@ -37,8 +37,8 @@ function Footer({ currentRoute }) {
                     </a>
                 </li>
                 <li>
-                    <a href="/#bookmark" className={currentRoute === "/#bookmark" ? "active" : ""}>
-                        <img src={getIcon("/#bookmark")} alt="Love Icon" />
+                    <a href="/product/bookmarked" className={currentRoute === "/product/bookmarked" ? "active" : ""}>
+                        <img src={getIcon("/product/bookmarked")} alt="Love Icon" />
                     </a>
                 </li>
                 <li>

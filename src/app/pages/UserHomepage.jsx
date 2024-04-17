@@ -24,14 +24,23 @@ function UserHomepage() {
             </div>
             <SearchComponent />
             <div className='property-type'>
-                <a href="/#"><img src={Home} alt="Home" /></a>
-                <a href="/#"><img src={Apartment} alt="Apartment" /></a>
-                <a href="/#"><img src={Loan} alt="Loan" /></a>
+                <a href="/product/home">
+                    <img src={Home} alt="Home" />
+                    <p>House</p>
+                </a>
+                <a href="/product/home">
+                    <img src={Apartment} alt="Apartment" />
+                    <p>Popular</p>
+                </a>
+                <a href="/user/loan">
+                    <img src={Loan} alt="Loan" />
+                    <p>Loan</p>
+                </a>
             </div>
             <div className='recommended'>
                 <div className='rec-head'>
                     <h1>Recommended</h1>
-                    <a href="/#">View all</a>
+                    <a href="/product/recommended">View all</a>
                 </div>
                 <div className='flex-prop'>
                     <div className='property'>
@@ -81,7 +90,7 @@ function UserHomepage() {
             <div className='popular'>
                 <div className='pop-head'>
                     <h1>Popular</h1>
-                    <a href="/#">View all</a>
+                    <a href="/product/recommended">View all</a>
                 </div>
                 <div className='flex-prop'>
                     <div className='property'>
