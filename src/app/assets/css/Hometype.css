@@ -1,0 +1,9 @@
+.product-home{
+    padding: 20px;
+}
+
+.products-container{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 80px;
+}

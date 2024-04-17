@@ -1,0 +1,19 @@
+.products-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-head p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+
+.page-result {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+}

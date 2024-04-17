@@ -24,7 +24,7 @@ function UserHomepage() {
             </div>
             <SearchComponent />
             <div className='property-type'>
-                <a href="/#"><img src={Home} alt="Home" /></a>
+                <a href="/product/home"><img src={Home} alt="Home" /></a>
                 <a href="/#"><img src={Apartment} alt="Apartment" /></a>
                 <a href="/#"><img src={Loan} alt="Loan" /></a>
             </div>
