@@ -24,7 +24,7 @@ function ProductCard({ ProductImage, ProductImageAlt, ProductPrice, ProductTitle
                             <span>{ProductLocation}</span>
                         </div>
                     </div>
-                    <a href="/#">Explore</a>
+                    <a href="/product/overview">Explore</a>
                 </div>
                 <div className='love-img'>
                     <img src={Love} alt="Love Icon" />
