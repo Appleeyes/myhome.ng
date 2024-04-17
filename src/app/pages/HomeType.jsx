@@ -1,8 +1,8 @@
 import React from "react";
 import '../assets/css/Hometype.css';
-import HomeProduct1 from '../assets/images/HomeProduct1.png';
-import HomeProduct2 from '../assets/images/HomeProduct2.png';
-import HomeProduct3 from '../assets/images/HomeProduct3.png';
+import HomeProduct1 from '../assets/images/hometype1.png';
+import HomeProduct2 from '../assets/images/hometype2.png';
+import HomeProduct3 from '../assets/images/hometype3.png';
 import ProductComponent from '../components/ProductComponent';
 import ProductCard from '../components/ProductCard';
 
