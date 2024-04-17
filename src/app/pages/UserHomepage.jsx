@@ -24,9 +24,18 @@ function UserHomepage() {
             </div>
             <SearchComponent />
             <div className='property-type'>
-                <a href="/product/home"><img src={Home} alt="Home" /></a>
-                <a href="/#"><img src={Apartment} alt="Apartment" /></a>
-                <a href="/#"><img src={Loan} alt="Loan" /></a>
+                <a href="/product/home">
+                    <img src={Home} alt="Home" />
+                    <p>House</p>
+                </a>
+                <a href="/#">
+                    <img src={Apartment} alt="Apartment" />
+                    <p>Popular</p>
+                </a>
+                <a href="/#">
+                    <img src={Loan} alt="Loan" />
+                    <p>Loan</p>
+                </a>
             </div>
             <div className='recommended'>
                 <div className='rec-head'>

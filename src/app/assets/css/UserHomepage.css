@@ -39,15 +39,28 @@
 
 .user-homepage .property-type a {
     background-color: #fff;
-    padding: 30px;
+    padding: 30px 30px 0;
     border-radius: 10px;
     box-shadow: inset 0 4px 20px 0 rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .user-homepage .property-type img {
     background-color: #4690FF;
     padding: 10px;
     border-radius: 30px;
+}
+
+.user-homepage .property-type p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    color: #000;
 }
 
 .recommended .rec-head,
@@ -143,12 +156,12 @@
     height: 8.57px;
 }
 
-.down .ratings{
+.down .ratings {
     position: absolute;
     top: 8%;
     left: 70%;
 }
 
-.popular{
+.popular {
     margin-bottom: 80px;
 }
