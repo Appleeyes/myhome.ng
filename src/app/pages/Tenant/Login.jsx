@@ -29,6 +29,7 @@ function Login() {
           additionalTagText="Don’t have an account? "
           additionalTagLink="/user/signup"
           additionalTagLinkText="Create Account"
+          onSubmit="/user/home"
         />
 
         <div>
