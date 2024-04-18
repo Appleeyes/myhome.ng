@@ -11,6 +11,7 @@ function FormComponent({
   additionalTagText,
   additionalTagLinkText,
   additionalTagLink,
+  onSubmit, // This should be a string (destination URL)
 }) {
   const initialState = Object.fromEntries(
     fields.map((field) => [field.name, ""])
@@ -30,8 +31,14 @@ function FormComponent({
     setShowPassword((prevState) => !prevState);
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Redirect the user to the destination URL
+    window.location.href = onSubmit;
+  };
+
   return (
-    <form className="form-container">
+    <form className="form-container" onSubmit={handleSubmit}>
       {fields.map((field) => (
         <div key={field.name} className="form-group">
           {field.type === "password" ? (

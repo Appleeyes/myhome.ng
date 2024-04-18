@@ -1,8 +1,8 @@
-import FormComponent from '../components/FormComponent';
-import arrowLeft from '../assets/images/arrow-left.svg';
-import '../assets/css/Login.css';
-import GoogleAuthButton from "../components/GoogleAuthComponent";
-import FacebookAuthButton from "../components/FacebookAuthComponent";
+import FormComponent from '../../components/FormComponent';
+import arrowLeft from '../../assets/images/arrow-left.svg';
+import '../../assets/css/Login.css';
+import GoogleAuthButton from "../../components/GoogleAuthComponent";
+import FacebookAuthButton from "../../components/FacebookAuthComponent";
 
 
 function Login() {
@@ -13,11 +13,11 @@ function Login() {
     return (
       <div className="Login">
         <div className="head">
-          <img
+          <a href="/access"><img
             src={arrowLeft}
             alt="Arrow Left Icon"
             className="arrowLeft-icon"
-          />
+          /></a>
           <h1>Log In</h1>
           <p>Welcome back!</p>
         </div>
@@ -27,8 +27,9 @@ function Login() {
           forgotPasswordLink="/login"
           forgotPasswordText="Forget Password"
           additionalTagText="Don’t have an account? "
-          additionalTagLink="/signup"
+          additionalTagLink="/user/signup"
           additionalTagLinkText="Create Account"
+          onSubmit="/user/home"
         />
 
         <div>

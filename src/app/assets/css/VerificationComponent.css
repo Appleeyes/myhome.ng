@@ -1,0 +1,74 @@
+.verify-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.verify-header {
+    text-align: left;
+}
+
+.verify-content {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.verify-content h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+}
+
+.verify-content p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.verify-content span {
+    color: #0165FC;
+}
+
+.verify-container form .inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.verify-container input {
+    width: 70px;
+    height: 70px;
+    background-color: #D9D9D9;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.verify-container form p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.verify-container form a {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #0165FC;
+    text-decoration: none;
+}
+
+.verify-container form button {
+    display: block;
+    margin: 80px 0;
+    width: 100%;
+    background-color: #0165FC;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.0162em;
+}
