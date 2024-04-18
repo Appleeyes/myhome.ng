@@ -2,8 +2,10 @@ import './App.css';
 import SignUp from './app/pages/Tenant/SignUp';
 import Login from './app/pages/Tenant/Login';
 import EmailVerify from './app/pages/Tenant/VerifyEmail';
+import AccountSuccess from './app/pages/Tenant/AccountSuccess';
 import LandlordSignUp from './app/pages/Landlord/SignUp';
 import LandlordLogin from './app/pages/Landlord/Login';
+import LandlordAccountSuccess from './app/pages/Landlord/AccountSuccess';
 import Onboarding from './app/pages/Onboarding';
 import SignupRole from './app/pages/SignupRole';
 import Access from './app/pages/Access';
@@ -29,11 +31,13 @@ function App() {
         <Route path="/user/profile" component={UserProfile} />
         <Route path="/user/home" component={UserHome} />
         <Route path="/user/verify-email" component={EmailVerify} />
+        <Route path="/user/account-success" component={AccountSuccess} />
         <Route path="/landlord/signup" exact component={LandlordSignUp} />
         <Route path="/landlord/login" component={LandlordLogin} />
         <Route path="/landlord/profile" component={LandlordProfile} />
         <Route path="/landlord/home" component={LandlordHome} />
         <Route path="/landlord/verify-email" component={LandlordEmailVerify} />
+        <Route path="/landlord/account-success" component={LandlordAccountSuccess} />
         <Route path="/product/home" component={HomeType} />
         <Route path="/product/recommended" component={Recommendation} />
         <Route path="/product/bookmarked" component={Favourite} />

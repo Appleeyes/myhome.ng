@@ -54,7 +54,7 @@ function SignUp() {
                     </div>
                     <div className='buttons'>
                         <a href="/user/verify-email">Verify</a>
-                        <a href="/user/login">Skip</a>
+                        <a href="/user/account-success">Skip</a>
                     </div>
                 </Modal>
             )}

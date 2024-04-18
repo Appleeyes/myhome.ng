@@ -3,7 +3,7 @@ import '../assets/css/VerificationComponent.css';
 import React from 'react';
 import useVerificationHook from "react-code-hook"
 
-function VerificationComponent({ verifying, destination, contact, action, arrowBack, link, buttonText }) {
+function VerificationComponent({ verifying, destination, contact, action, arrowBack, link, }) {
     const { inputStates, inputClass, handleChange, handleKeyDown } =
         useVerificationHook(4);
 

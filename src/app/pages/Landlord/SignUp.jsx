@@ -54,7 +54,7 @@ function SignUp() {
                     </div>
                     <div className='buttons'>
                         <a href="/landlord/verify-email">Verify</a>
-                        <a href="/landlord/login">Skip</a>
+                        <a href="/landlord/account-success">Skip</a>
                     </div>
                 </Modal>
             )}

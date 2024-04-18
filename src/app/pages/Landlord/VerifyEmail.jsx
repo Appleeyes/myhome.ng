@@ -8,7 +8,7 @@ function VerifyEmail() {
             verifying="Email"
             destination="email"
             contact="fadejames@gmail.com"
-            action=""
+            action="/landlord/account-success"
             arrowBack="/landlord/signup"
             link="/landlord/verify-email"
             />
