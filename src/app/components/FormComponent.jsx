@@ -11,6 +11,7 @@ function FormComponent({
   additionalTagText,
   additionalTagLinkText,
   additionalTagLink,
+  onSubmit,
 }) {
   const initialState = Object.fromEntries(
     fields.map((field) => [field.name, ""])
@@ -30,8 +31,13 @@ function FormComponent({
     setShowPassword((prevState) => !prevState);
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    onSubmit(formData);
+  };
+
   return (
-    <form className="form-container">
+    <form className="form-container" onSubmit={handleSubmit}>
       {fields.map((field) => (
         <div key={field.name} className="form-group">
           {field.type === "password" ? (
