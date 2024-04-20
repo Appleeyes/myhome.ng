@@ -1,0 +1,153 @@
+.user-loan {
+    padding: 20px;
+}
+
+.user-loan .head p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+
+}
+
+.loan-overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.loan-overview a {
+    text-decoration: none;
+    color: #000;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+    text-align: center;
+    width: 15%;
+    background-color: #CCE0FE;
+    padding: 20px 10px;
+    border-radius: 50%;
+}
+
+.my-loans h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    margin-bottom: 0;
+}
+
+.my-loans p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #BEBDBD;
+    margin-top: 5px;
+}
+
+.current-loan {
+    background-color: #CCE0FE;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.current-loan .status {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.current-loan .status p {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+    color: #000;
+}
+
+.current-loan .details p {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.current-loan .details span {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    color: #000;
+    margin-top: 5px;
+}
+
+.current-loan .status span {
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #A1887F;
+}
+
+.current-loan button {
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #1B76FF;
+    color: #000;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+}
+
+.loan-details{
+    margin-top: 80px;
+}
+
+.loan-detail {
+    color: #000;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #C2BEBE;
+}
+
+.loan-detail p,
+.loan-total p {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.72px;
+    color: #000;
+}
+
+.loan-detail span,
+.loan-total span {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+}
+
+.loan-detail .amount,
+.loan-total .amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.my-loans .button Button{
+    width: 70%;
+    background-color: #0165FC;
+    margin: 30px 15% 80px;
+}

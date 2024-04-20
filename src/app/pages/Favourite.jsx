@@ -5,6 +5,7 @@ import Favourite2 from '../assets/images/hometype3.png';
 import Favourite3 from '../assets/images/hometype1.png';
 import ProductComponent from '../components/ProductComponent';
 import ProductCard from '../components/ProductCard';
+import Footer from '../components/Footer';
 
 function Favourite() {
     return (
@@ -36,6 +37,7 @@ function Favourite() {
                     ProductLocation="Eko Atlantic City"
                 />
             </div>
+            <Footer currentRoute={window.location.pathname} />
         </div>
     )
 }

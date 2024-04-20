@@ -5,6 +5,7 @@ import HomeProduct2 from '../assets/images/hometype2.png';
 import HomeProduct3 from '../assets/images/hometype3.png';
 import ProductComponent from '../components/ProductComponent';
 import ProductCard from '../components/ProductCard';
+import Footer from '../components/Footer';
 
 function HomeType() {
     return (
@@ -37,6 +38,7 @@ function HomeType() {
                     ProductLocation="Ikoyi, Abayomi Fatusin Close"
                 />
             </div>
+            <Footer currentRoute={window.location.pathname} />
         </div>
     )
 }

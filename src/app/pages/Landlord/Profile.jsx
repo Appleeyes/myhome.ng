@@ -22,6 +22,7 @@ function Profile() {
                 imageSrc={ProfileMan}
                 imageAlt="Profile Image"
                 flexLayout={true}
+                arrowBack="/landlord/home"
                 additionalContent={[<div className='activity'>
                     <div className='activity-item'>
                         <img src={Activity1} alt="Activity Icon" />

@@ -5,6 +5,7 @@ import Recommended2 from '../assets/images/recommended2.png';
 import Recommended3 from '../assets/images/recommended3.png';
 import ProductComponent from '../components/ProductComponent';
 import ProductCard from '../components/ProductCard';
+import Footer from '../components/Footer';
 
 function Recommendation() {
     return (
@@ -37,6 +38,7 @@ function Recommendation() {
                     ProductLocation="Maryland, 3 Road Avenue"
                 />
             </div>
+            <Footer currentRoute={window.location.pathname} />
         </div>
     )
 }

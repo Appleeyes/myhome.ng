@@ -3,8 +3,8 @@ import '../assets/css/Hometype.css';
 import '../assets/css/ProductOverview.css';
 import Favourite2 from '../assets/images/hometype3.png';
 import ProductComponent from '../components/ProductComponent';
-import ProductCard from '../components/ProductCard';
 import Button from '../components/ButtonComponent';
+import Footer from '../components/Footer';
 
 function ProductOverview() {
     return (
@@ -14,13 +14,7 @@ function ProductOverview() {
             />
 
             <div className="products-container">
-                <ProductCard
-                    ProductImage={Favourite2}
-                    ProductImageAlt="Favourite2 Image"
-                    ProductPrice="#1,500,000"
-                    ProductTitle="Storey Building"
-                    ProductLocation="Victoria Island 1, Karimu Kotu Street"
-                />
+                <img src={Favourite2} alt="Product Thumbnail" />
             </div>
             <div className="product-details">
                 <ul>
@@ -31,6 +25,10 @@ function ProductOverview() {
                     <li>
                         <h3>Property Type</h3>
                         <p>Apartment</p>
+                    </li>
+                    <li>
+                        <h3>Property Location</h3>
+                        <p className="price">Victoria Island 1, Karimu Kotu Street</p>
                     </li>
                     <li>
                         <h3>Listin Date</h3>
@@ -71,6 +69,7 @@ function ProductOverview() {
                 </ul>
                 <Button link="/#">Contact Agent</Button>
             </div>
+            <Footer currentRoute={window.location.pathname} />
         </div>
     )
 }
