@@ -11,7 +11,8 @@ function FormComponent({
   additionalTagText,
   additionalTagLinkText,
   additionalTagLink,
-  onSubmit, // This should be a string (destination URL)
+  onSubmit,
+  onSubmitCustom,
 }) {
   const initialState = Object.fromEntries(
     fields.map((field) => [field.name, ""])
@@ -33,8 +34,13 @@ function FormComponent({
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Redirect the user to the destination URL
-    window.location.href = onSubmit;
+    if (typeof onSubmitCustom === "function") {
+      onSubmitCustom(formData);
+    } else if (typeof onSubmit === "function") {
+      onSubmit(formData);
+    } else {
+      window.location.href = onSubmit;
+    }
   };
 
   return (
