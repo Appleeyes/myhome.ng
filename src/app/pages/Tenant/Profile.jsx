@@ -1,10 +1,10 @@
-import ProfileComponent from '../components/ProfileComponent';
-import '../assets/css/UserProfile.css';
-import UserAct from '../assets/images/user-activity.svg';
-import ProfileWoman from '../assets/images/profile-woman.png';
-import ArrowRight from '../assets/images/arrow-right.svg';
+import ProfileComponent from '../../components/ProfileComponent';
+import '../../assets/css/UserProfile.css';
+import UserAct from '../../assets/images/user-activity.svg';
+import ProfileWoman from '../../assets/images/profile-woman.png';
+import ArrowRight from '../../assets/images/arrow-right.svg';
 
-function UserProfile() {
+function Profile() {
     const actions = [
         { title: "Complete Your Profile", link: "/#" },
         { title: "Check Your Eligibility Status", link: "/#" },
@@ -35,4 +35,4 @@ function UserProfile() {
     );
 }
 
-export default UserProfile;
+export default Profile;

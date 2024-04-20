@@ -1,16 +1,16 @@
 import React from 'react';
-import '../assets/css/LandlordHomepage.css';
-import ProfileWoman from '../assets/images/profile-woman.png';
-import BellIcon from '../assets/images/bell.svg';
-import Receipt from '../assets/images/reciept.svg';
-import FileUpload from '../assets/images/file-upload.svg';
-import PropertyManagement from '../assets/images/home1.png';
-import TenantManagement from '../assets/images/activity2.svg';
-import Performance from '../assets/images/activity3.png';
-import SearchComponent from '../components/SearchComponent';
-import Footer from '../components/Footer';
+import '../../assets/css/LandlordHomepage.css';
+import ProfileWoman from '../../assets/images/profile-woman.png';
+import BellIcon from '../../assets/images/bell.svg';
+import Receipt from '../../assets/images/reciept.svg';
+import FileUpload from '../../assets/images/file-upload.svg';
+import PropertyManagement from '../../assets/images/home1.png';
+import TenantManagement from '../../assets/images/activity2.svg';
+import Performance from '../../assets/images/activity3.png';
+import SearchComponent from '../../components/SearchComponent';
+import Footer from '../../components/Footer';
 
-function LandlordHomepage() {
+function Homepage() {
     return (
         <div className='landlord-homepage'>
             <div className='landlord-head'>
@@ -48,4 +48,4 @@ function LandlordHomepage() {
     );
 }
 
-export default LandlordHomepage;
+export default Homepage;

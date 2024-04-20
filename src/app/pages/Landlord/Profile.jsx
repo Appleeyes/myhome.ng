@@ -1,13 +1,13 @@
-import ProfileComponent from '../components/ProfileComponent';
-import '../assets/css/LandlordProfile.css';
-import Activity1 from '../assets/images/activity1.svg';
-import Activity2 from '../assets/images/activity2.svg';
-import Activity3 from '../assets/images/activity3.png';
-import ProfileMan from '../assets/images/profile-man.png';
-import Footer from '../components/Footer';
+import ProfileComponent from '../../components/ProfileComponent';
+import '../../assets/css/LandlordProfile.css';
+import Activity1 from '../../assets/images/activity1.svg';
+import Activity2 from '../../assets/images/activity2.svg';
+import Activity3 from '../../assets/images/activity3.png';
+import ProfileMan from '../../assets/images/profile-man.png';
+import Footer from '../../components/Footer';
 
 
-function LandlordProfile() {
+function Profile() {
     const actions = [
         { title: "Complete Your Profile", link: "/#" },
         { title: "Check Your Eligibility Status", link: "/#" },
@@ -43,4 +43,4 @@ function LandlordProfile() {
     );
 }
 
-export default LandlordProfile;
+export default Profile;
