@@ -68,5 +68,6 @@
 
 .user-process select{
     margin-bottom: 80px;
-    padding: 15px 0;
+    text-indent:15px;
+    height:25px;
 }
