@@ -33,14 +33,14 @@ function SignUp() {
                     alt="Arrow Left Icon"
                     className="arrowLeft-icon"
                 /></a>
-                
+
                 <h1>Create Account</h1>
             </div>
 
             <FormComponent
                 fields={fields}
                 submitButtonText="Create Account"
-                onSubmit={handleSignUp}
+                onSubmitCustom={handleSignUp}
                 additionalTagText="Already have an Account? "
                 additionalTagLink="/landlord/login"
                 additionalTagLinkText="Log In"

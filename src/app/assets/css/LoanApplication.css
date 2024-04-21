@@ -1,0 +1,82 @@
+.application .head {
+    background-color: #CCE0FE;
+    padding: 20px;
+}
+
+.head h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+
+.head span {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+}
+
+.head .filter {
+    margin-top: 30px;
+    width: 95%;
+}
+
+.filter .loan-elig {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.loan-elig {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+}
+
+.application .tail {
+    padding: 50px;
+}
+
+.tail .card {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.tail .card a {
+    text-decoration: none;
+    color: #6F6B6B;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.72px;
+}
+
+.tail .card1 span {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.72px;
+    color: #6F6B6B;
+}
+
+.tail .card1 p {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.23px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.tail .button Button{
+    width: 70%;
+    background-color: #0165FC;
+    margin: 30px 15% 80px;
+}

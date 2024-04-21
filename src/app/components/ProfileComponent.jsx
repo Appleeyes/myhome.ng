@@ -10,7 +10,8 @@ function ProfileComponent({
     imageAlt,
     flexLayout = false,
     additionalContent,
-    actions
+    actions,
+    arrowBack
 }) {
     const handleActionClick = () => {
         console.log("Action clicked");
@@ -19,7 +20,9 @@ function ProfileComponent({
     return (
         <div className={`profile-container${flexLayout ? ' flex-layout' : ''}`}>
             <div className="profile-header">
-                <img src={ArrowLeft} alt="Arrow Left Icon" />
+                <a href={arrowBack}>
+                    <img src={ArrowLeft} alt="Arrow Left Icon" />
+                </a>
                 <p>Profile</p>
             </div>
             <div className="profile">

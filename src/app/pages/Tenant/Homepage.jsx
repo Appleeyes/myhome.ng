@@ -1,18 +1,18 @@
-import '../assets/css/UserHomepage.css';
-import ProfileWoman from '../assets/images/profile-woman.png';
-import BellIcon from '../assets/images/bell.svg';
-import Home from '../assets/images/home.svg';
-import Loan from '../assets/images/loan.svg';
-import Apartment from '../assets/images/apartment.svg';
-import Home1 from '../assets/images/home1.png';
-import Home2 from '../assets/images/home2.png';
-import Location from '../assets/images/location.svg';
-import Love from '../assets/images/love-icon.svg';
-import Rating from '../assets/images/rating.svg';
-import SearchComponent from '../components/SearchComponent';
-import Footer from '../components/Footer';
+import '../../assets/css/UserHomepage.css';
+import ProfileWoman from '../../assets/images/profile-woman.png';
+import BellIcon from '../../assets/images/bell.svg';
+import Home from '../../assets/images/home.svg';
+import Loan from '../../assets/images/loan.svg';
+import Apartment from '../../assets/images/apartment.svg';
+import Home1 from '../../assets/images/home1.png';
+import Home2 from '../../assets/images/home2.png';
+import Location from '../../assets/images/location.svg';
+import Love from '../../assets/images/love-icon.svg';
+import Rating from '../../assets/images/rating.svg';
+import SearchComponent from '../../components/SearchComponent';
+import Footer from '../../components/Footer';
 
-function UserHomepage() {
+function Homepage() {
     return (
         <div className="user-homepage">
             <div className='user-head'>
@@ -184,4 +184,4 @@ function UserHomepage() {
     )
 }
 
-export default UserHomepage;
+export default Homepage;
