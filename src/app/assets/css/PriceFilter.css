@@ -1,0 +1,21 @@
+.rangeslider-horizontal .rangeslider__fill {
+    background-color: #0165FC
+}
+
+.rangeslider {
+    margin: 10px 0;
+}
+
+.value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.value p {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+    color: #737070;
+    margin-top: 5px;
+}

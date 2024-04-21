@@ -16,9 +16,9 @@ function Loan() {
             </div>
 
             <div className='loan-overview'>
-                <a href="/#">Check Eligibility</a>
-                <a href="/#">Loan calculator</a>
-                <a href="/#">Apply Now</a>
+                <a href="/loan/apply">Check Eligibility</a>
+                <a href="/loan/apply">Loan calculator</a>
+                <a href="/loan/apply">Apply Now</a>
             </div>
 
             <div className='my-loans'>
