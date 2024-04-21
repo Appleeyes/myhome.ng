@@ -1,0 +1,54 @@
+.notification {
+    padding: 20px;
+}
+
+.notification .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notification .bell img {
+    background-color: #F3F5F8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.notification .head p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+
+.not-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CCE0FE;
+    padding: 10px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.not-card h1 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    margin-bottom: 2px;
+}
+
+.notification .recent p,
+.notification .yesterday p,
+.not-card p {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+    margin-top: 0;
+}
+
+.notification .wed{
+    margin-bottom: 100px;
+}

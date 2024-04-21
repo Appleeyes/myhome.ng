@@ -20,7 +20,7 @@ function Homepage() {
                     <a href="/user/profile"><img src={ProfileWoman} alt="Profile Imge" /></a>
                     <h3>Hello Fade,</h3>
                 </div>
-                <a href="/user/profile"><img src={BellIcon} alt="Bell Icon" /></a>
+                <a href="/notification"><img src={BellIcon} alt="Bell Icon" /></a>
             </div>
             <SearchComponent />
             <div className='property-type'>
