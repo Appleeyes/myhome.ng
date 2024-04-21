@@ -1,0 +1,71 @@
+.user-process {
+    padding: 20px;
+}
+
+.user-process h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+
+.user-process span {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+}
+
+.loan-card {
+    background-color: #CCE0FE;
+    margin-top: 30px;
+    padding: 20px 30px;
+    border-radius: 12px;
+}
+
+.loan-card span {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.72px;
+    color: #6F6B6B;
+}
+
+.loan-card p {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-process form {
+    margin-top: 50px;
+}
+
+.user-process label {
+    display: block;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    margin-bottom: 10px;
+}
+
+.user-process input,
+.user-process select{
+    width: 100%;
+    padding: 12px 0;
+    border: 1px solid #000;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.user-process select{
+    margin-bottom: 80px;
+}

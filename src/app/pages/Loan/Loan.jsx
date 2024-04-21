@@ -1,7 +1,7 @@
-import '../assets/css/Loan.css';
-import arrowLeft from '../assets/images/arrow-left.svg';
-import Button from '../components/ButtonComponent';
-import Footer from '../components/Footer';
+import '../../assets/css/Loan.css';
+import arrowLeft from '../../assets/images/arrow-left.svg';
+import Button from '../../components/ButtonComponent';
+import Footer from '../../components/Footer';
 
 function Loan() {
     return (
