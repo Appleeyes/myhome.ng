@@ -9,6 +9,7 @@ import LandlordAccountSuccess from './app/pages/Landlord/AccountSuccess';
 import Onboarding from './app/pages/Onboarding';
 import SignupRole from './app/pages/SignupRole';
 import Access from './app/pages/Access';
+import Settings from './app/pages/Settings';
 import Loan from './app/pages/Loan/Loan';
 import LoanApplication from './app/pages/Loan/Application';
 import LoanProcess from './app/pages/Loan/Process';
@@ -33,6 +34,8 @@ function App() {
         <Route path="/signup-role" component={SignupRole} />
         <Route path="/access" component={Access} />
         <Route path="/notification" component={Notification} />
+        <Route path="/settings" component={Settings} />
+
         <Route path="/user/profile" component={UserProfile} />
         <Route path="/user/home" component={UserHome} />
         <Route path="/user/verify-email" component={EmailVerify} />
