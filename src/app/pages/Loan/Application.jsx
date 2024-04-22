@@ -1,5 +1,5 @@
 import '../../assets/css/LoanApplication.css';
-import arrowLeft from '../../assets/images/arrow-left.svg';
+import ArrowBack from '../../components/ArrowBackComponent';
 import Button from '../../components/ButtonComponent';
 import PriceFilter from '../../components/PriceFilter';
 import DateFilter from '../../components/DateFilter ';
@@ -9,11 +9,7 @@ function Application() {
     return (
         <div className="application">
             <div className='head'>
-                <a href="/user/loan"><img
-                    src={arrowLeft}
-                    alt="Arrow Left Icon"
-                    className="arrowLeft-icon"
-                /></a>
+                <ArrowBack />
                 <h3>Request a specific amount</h3>
                 <span>Fill in the following options to establish how much you want to borrow to buy a house and how long.</span>
                 <div className='filter'>

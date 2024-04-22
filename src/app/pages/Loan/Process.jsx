@@ -1,16 +1,12 @@
 import '../../assets/css/Process.css';
-import arrowLeft from '../../assets/images/arrow-left.svg';
+import ArrowBack from '../../components/ArrowBackComponent';
 import Footer from '../../components/Footer';
 
 function Process() {
     return (
         <div className='user-process'>
             <div className='head'>
-                <a href="/loan/apply"><img
-                    src={arrowLeft}
-                    alt="Arrow Left Icon"
-                    className="arrowLeft-icon"
-                /></a>
+                <ArrowBack />
                 <h3>Submit Loan request</h3>
                 <span>Repayment will be automatically collected from the debit card linked to your account.</span>
             </div>

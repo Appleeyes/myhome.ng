@@ -1,0 +1,49 @@
+.settings .head {
+    display: flex;
+    align-items: center;
+    gap: 35%;
+    padding: 20px;
+}
+
+.settings .head p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+
+.settings .images {
+    position: relative;
+}
+
+.images {
+    width: 98%;
+}
+
+.images .house {
+    width: 100%;
+}
+
+.images .profile-pic {
+    position: absolute;
+    top: 65%;
+    left: 30%;
+}
+
+.images .profile-pic p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    text-align: center;
+}
+
+.options{
+    padding: 20px;
+    margin: 150px 0 70px;
+}
+
+.options .action-item div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

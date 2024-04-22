@@ -20,8 +20,8 @@ function Footer({ currentRoute }) {
                 return currentRoute === "/product/bookmarked" ? LoveActive : LoveIcon;
             case "/#search":
                 return currentRoute === "/#search" ? SearchActive : SearchIcon;
-            case "/#settings":
-                return currentRoute === "/#settings" ? SettingActive : SettingIcon;
+            case "/settings":
+                return currentRoute === "/settings" ? SettingActive : SettingIcon;
             case "/user/profile":
                 return currentRoute === "/user/profile" ? ProfileActive : ProfileIcon;
             default:
@@ -47,8 +47,8 @@ function Footer({ currentRoute }) {
                     </a>
                 </li>
                 <li>
-                    <a href="/#settings" className={currentRoute === "/#settings" ? "active" : ""}>
-                        <img src={getIcon("/#settings")} alt="Setting Icon" />
+                    <a href="/settings" className={currentRoute === "/settings" ? "active" : ""}>
+                        <img src={getIcon("/settings")} alt="Setting Icon" />
                     </a>
                 </li>
                 <li>

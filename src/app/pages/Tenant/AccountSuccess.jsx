@@ -4,7 +4,6 @@ function AccountSuccess() {
     return (
         <div>
             <AccountSuccessComponent
-                arrowBack="/user/signup"
                 link="/user/login"
             />
         </div>

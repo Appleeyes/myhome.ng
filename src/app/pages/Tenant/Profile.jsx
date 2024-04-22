@@ -19,7 +19,6 @@ function Profile() {
                 imageSrc={ProfileWoman}
                 imageAlt="Profile Image"
                 flexLayout={true}
-                arrowBack="/user/home"
                 additionalContent={[<div className='activity'>
                     <img src={UserAct} alt="User Activity Icon" />
                     <div className=''>

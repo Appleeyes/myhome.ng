@@ -1,5 +1,5 @@
 import '../../assets/css/Loan.css';
-import arrowLeft from '../../assets/images/arrow-left.svg';
+import ArrowBack from '../../components/ArrowBackComponent';
 import Button from '../../components/ButtonComponent';
 import Footer from '../../components/Footer';
 
@@ -7,11 +7,7 @@ function Loan() {
     return (
         <div className='user-loan'>
             <div className='head'>
-                <a href="/user/home"><img
-                    src={arrowLeft}
-                    alt="Arrow Left Icon"
-                    className="arrowLeft-icon"
-                /></a>
+                <ArrowBack />
                 <p>Loan Overview</p>
             </div>
 

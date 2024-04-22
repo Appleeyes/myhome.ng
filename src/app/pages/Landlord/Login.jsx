@@ -1,5 +1,5 @@
 import FormComponent from '../../components/FormComponent';
-import arrowLeft from '../../assets/images/arrow-left.svg';
+import ArrowBack from '../../components/ArrowBackComponent';
 import '../../assets/css/Login.css';
 import GoogleAuthButton from "../../components/GoogleAuthComponent";
 import FacebookAuthButton from "../../components/FacebookAuthComponent";
@@ -13,13 +13,7 @@ function Login() {
   return (
     <div className="Login">
       <div className="head">
-        <a href="/access">
-          <img
-            src={arrowLeft}
-            alt="Arrow Left Icon"
-            className="arrowLeft-icon"
-          />
-        </a>
+        <ArrowBack />
         <h1>Log In</h1>
         <p>Welcome back!</p>
       </div>
