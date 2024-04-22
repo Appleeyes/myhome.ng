@@ -1,6 +1,6 @@
 import React from "react";
 import '../assets/css/ProfileComponent.css';
-import ArrowLeft from '../assets/images/arrow-left.svg';
+import ArrowBack from '../components/ArrowBackComponent';
 import ArrowRight from '../assets/images/arrow-right.svg';
 import Footer from '../components/Footer';
 
@@ -11,7 +11,6 @@ function ProfileComponent({
     flexLayout = false,
     additionalContent,
     actions,
-    arrowBack
 }) {
     const handleActionClick = () => {
         console.log("Action clicked");
@@ -20,9 +19,7 @@ function ProfileComponent({
     return (
         <div className={`profile-container${flexLayout ? ' flex-layout' : ''}`}>
             <div className="profile-header">
-                <a href={arrowBack}>
-                    <img src={ArrowLeft} alt="Arrow Left Icon" />
-                </a>
+                <ArrowBack />
                 <p>Profile</p>
             </div>
             <div className="profile">

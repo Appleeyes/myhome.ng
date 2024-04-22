@@ -1,6 +1,6 @@
 import React from "react";
 import '../assets/css/ProductComponent.css';
-import ArrowLeft from '../assets/images/arrow-left.svg';
+import ArrowBack from '../components/ArrowBackComponent';
 import Filter from '../assets/images/filter.svg';
 import SearchComponent from './SearchComponent';
 
@@ -10,7 +10,7 @@ function ProductComponent({ PageTitle,
     return (
         <div className="products-page">
             <div className="products-head">
-                <a href="/user/home"><img src={ArrowLeft} alt="Arrow Left Icon" /></a>
+                <ArrowBack />
                 <p>{PageTitle}</p>
                 <a href="/#"><img src={Filter} alt="Filter Icon" /></a>
             </div>

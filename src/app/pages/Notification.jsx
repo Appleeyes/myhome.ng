@@ -1,5 +1,5 @@
 import '../assets/css/Notification.css';
-import ArrowLeft from '../assets/images/arrow-left.svg';
+import ArrowBack from '../components/ArrowBackComponent';
 import BellIcon from '../assets/images/bell.svg';
 import NotIcon from '../assets/images/nott-icon.svg';
 import ErrorIcon from '../assets/images/error-icon.svg';
@@ -9,7 +9,7 @@ function Notification() {
     return (
         <div className="notification">
             <div className="head">
-                <a href="/#"><img src={ArrowLeft} alt="Arrow Left Icon" /></a>
+                <ArrowBack />
                 <p>Notification</p>
                 <a className='bell' href="/notification"><img src={BellIcon} alt="Bell Icon" /></a>
             </div>

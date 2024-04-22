@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../../components/CustomModal';
 import FormComponent from '../../components/FormComponent';
-import arrowLeft from '../../assets/images/arrow-left.svg';
+import ArrowBack from '../../components/ArrowBackComponent';
 import CheckIcon from '../../assets/images/check-icon.svg';
 import '../../assets/css/SignUp.css';
 import GoogleAuthButton from '../../components/GoogleAuthComponent';
@@ -28,12 +28,7 @@ function SignUp() {
     return (
         <div className="SignUp">
             <div className='head'>
-                <a href="/access"><img
-                    src={arrowLeft}
-                    alt="Arrow Left Icon"
-                    className="arrowLeft-icon"
-                /></a>
-
+                <ArrowBack />
                 <h1>Create Account</h1>
             </div>
 

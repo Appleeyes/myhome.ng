@@ -1,4 +1,4 @@
-import arrowLeft from '../assets/images/arrow-left.svg';
+import ArrowBack from '../components/ArrowBackComponent';
 import '../assets/css/VerificationComponent.css';
 import React from 'react';
 import useVerificationHook from "react-code-hook"
@@ -10,7 +10,7 @@ function VerificationComponent({ verifying, destination, contact, action, arrowB
     return (
         <div className='verify-container'>
             <div className='verify-header'>
-                <a href={arrowBack}><img src={arrowLeft} alt="arrowLeft icon" /></a>
+                <ArrowBack />
             </div>
             <div className='verify-content'>
                 <h3>Verify {verifying}</h3>
@@ -18,18 +18,18 @@ function VerificationComponent({ verifying, destination, contact, action, arrowB
             </div>
             <form action={action}>
                 <div className="inputs">
-                {inputStates.map((state, ii) => {
-                    return (
-                        <input
-                            type="number"
-                            value={state.digit}
-                            className={inputClass}
-                            onChange={(e) => handleChange(e, ii)}
-                            onKeyDown={handleKeyDown}
-                            style={{ fontSize: '20px' }}
-                        />
-                    );
-                })}
+                    {inputStates.map((state, ii) => {
+                        return (
+                            <input
+                                type="number"
+                                value={state.digit}
+                                className={inputClass}
+                                onChange={(e) => handleChange(e, ii)}
+                                onKeyDown={handleKeyDown}
+                                style={{ fontSize: '20px' }}
+                            />
+                        );
+                    })}
                 </div>
                 <p>Didn’t receive the code?</p>
                 <a href={link}>Resend Code</a>

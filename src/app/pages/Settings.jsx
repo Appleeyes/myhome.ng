@@ -1,7 +1,6 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
 import '../assets/css/Settings.css';
-import ArrowLeft from '../assets/images/arrow-left.svg';
+import ArrowBack from '../components/ArrowBackComponent';
 import ProfileHouse from '../assets/images/setting-house.png';
 import ProfileWoman from '../assets/images/setting-woman.png';
 import Notification from '../assets/images/notification.svg';
@@ -16,17 +15,10 @@ import ArrowRight from '../assets/images/arrow-right.svg';
 import Footer from '../components/Footer';
 
 function Settings() {
-    const history = useHistory();
-
-    const goBack = () => {
-        history.goBack();
-    };
     return (
         <div className='settings'>
             <div className="head">
-                <button className='arrow' onClick={goBack}>
-                    <img src={ArrowLeft} alt="Arrow Left Icon" />
-                </button>
+                <ArrowBack />
                 <p>Settings</p>
             </div>
             <div className='images'>

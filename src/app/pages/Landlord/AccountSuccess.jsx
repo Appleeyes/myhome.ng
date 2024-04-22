@@ -4,7 +4,6 @@ function AccountSuccess() {
     return (
         <div>
             <AccountSuccessComponent
-                arrowBack="/landlord/signup"
                 link="/landlord/login"
             />
         </div>

@@ -12,6 +12,6 @@ button {
     cursor: pointer;
 }
 
-a {
+.custom-link {
     border-radius: 30px;
 }

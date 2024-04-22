@@ -9,7 +9,6 @@ function VerifyEmail() {
                 destination="email"
                 contact="fadejames@gmail.com"
                 action="/user/account-success"
-                arrowBack="/user/signup"
                 link="/user/verify-email"
             />
         </div>

@@ -9,7 +9,6 @@ function VerifyEmail() {
             destination="email"
             contact="fadejames@gmail.com"
             action="/landlord/account-success"
-            arrowBack="/landlord/signup"
             link="/landlord/verify-email"
             />
         </div>
