@@ -7,7 +7,6 @@ import Activity4 from '../../assets/images/activity4.svg';
 import ProfileMan from '../../assets/images/profile-man.png';
 import Footer from '../../components/Footer';
 
-
 function Profile() {
     return (
         <div className="landlord-profile">
@@ -38,7 +37,7 @@ function Profile() {
                     </a>
                 </div>]}
             />
-            <Footer />
+            <Footer currentRoute={window.location.pathname} />
         </div>
     );
 }

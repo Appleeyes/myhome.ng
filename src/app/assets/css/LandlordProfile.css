@@ -5,7 +5,17 @@
     margin: 20px 0;
 }
 
-.activity-item {
+.activity a{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #0165FC;
+}
+
+.activity-item{
     width: 45%;
     box-sizing: border-box;
     display: flex;
@@ -21,13 +31,4 @@
 .activity-item img {
     width: 80px;
     height: 80px;
-}
-
-.activity-item p {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 15px;
-    text-align: center;
-    color: #0165FC;
 }

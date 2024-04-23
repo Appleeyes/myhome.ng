@@ -25,6 +25,8 @@ import Favourite from './app/pages/Favourite';
 import Notification from './app/pages/Notification';
 import ProductOverview from './app/pages/ProductOverview';
 import LandlordEmailVerify from './app/pages/Landlord/VerifyEmail';
+import ProductManagement from './app/pages/Product/Management';
+
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -38,6 +40,7 @@ function App() {
         <Route path="/notification" component={Notification} />
         <Route path="/settings" component={Settings} />
         <Route path="/search" component={Search} />
+        <Route path="/product/management" component={ProductManagement} />
 
         <Route path="/user/profile" component={UserProfile} />
         <Route path="/user/home" component={UserHome} />
