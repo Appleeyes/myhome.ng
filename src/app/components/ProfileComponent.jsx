@@ -6,6 +6,9 @@ import Footer from '../components/Footer';
 
 function ProfileComponent({
     fullName,
+    PhoneNumber,
+    EmailAddress,
+    passwordLink,
     imageSrc,
     imageAlt,
     flexLayout = false,
@@ -25,37 +28,24 @@ function ProfileComponent({
             <div className="profile">
                 <div className="profile-info">
                     <img src={imageSrc} alt={imageAlt} />
-                    <h3>{fullName}</h3>
                 </div>
                 <div className="profile-view">
                     <h3>Personal Info</h3>
                     <div className="display-view">
-                        <h5>First Name</h5>
-                        <p>
-                            <span></span>
-                            <hr />
-                        </p>
-                    </div>
-                    <div className="display-view">
-                        <h5>Last Name</h5>
-                        <p>
-                            <span></span>
-                            <hr />
-                        </p>
+                        <h5>Full Name</h5>
+                        <p>{fullName}</p>
                     </div>
                     <div className="display-view">
                         <h5>Phone Number</h5>
-                        <p>
-                            <span></span>
-                            <hr />
-                        </p>
+                        <p>{PhoneNumber}</p>
                     </div>
                     <div className="display-view">
                         <h5>Email Address</h5>
-                        <p>
-                            <span></span>
-                            <hr />
-                        </p>
+                        <p>{EmailAddress}</p>
+                    </div>
+                    <div className="display-view">
+                        <h5>Change Pasword</h5>
+                        <p><a href={passwordLink}><img src={ArrowRight} alt="Arrow Right Icon" /></a></p>
                     </div>
                 </div>
             </div>

@@ -31,7 +31,7 @@
 }
 
 .profile .profile-info img {
-    margin-top: 30%;
+    margin-top: 80%;
     margin-left: 20%;
 }
 
@@ -58,39 +58,23 @@
 
 .profile .display-view {
     display: flex;
-    margin-top: -25px;
-    position: relative;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .profile .display-view h5 {
     font-family: Roboto;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 18.75px;
-    text-align: left;
-    position: relative;
-    z-index: 1;
+    font-weight: 500;
+    line-height: 16.41px;
 }
 
 .profile .display-view p {
-    display: flex;
-    flex-direction: column;
-}
-
-.profile .display-view span {
-    display: block;
-}
-
-.profile .display-view hr {
-    position: absolute;
-    left: 50%;
-    right: 0;
-    border: none;
-    height: 1px;
-    background-color: #000;
-    margin-top: 20px;
-    z-index: 0;
-    width: 50%;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: center;
 }
 
 .actions-container {

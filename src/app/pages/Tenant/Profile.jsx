@@ -16,6 +16,9 @@ function Profile() {
         <div className="user-profile">
             <ProfileComponent
                 fullName="Fade James"
+                PhoneNumber="090 XXX XXX XX"
+                EmailAddress="fadejames@gmail.com"
+                passwordLink="/settings"
                 imageSrc={ProfileWoman}
                 imageAlt="Profile Image"
                 flexLayout={true}
