@@ -1,0 +1,82 @@
+.filter {
+    padding: 20px;
+}
+
+.filter .head {
+    display: flex;
+    align-items: center;
+    gap: 35%;
+}
+
+.filter .head p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+
+.filter .property-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prop-type-container h3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    margin-bottom: 20px;
+}
+
+.property-type button {
+    background-color: transparent;
+    border: 1px solid #1B76FF;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.0162em;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.property-type button.active {
+    background-color: #0165FC;
+    color: #fff;
+}
+
+.less{
+    gap: 10px;
+}
+
+.less button {
+    width: 40%;
+    padding: 10px 0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16.5px;
+    letter-spacing: 0.0162em;
+}
+
+.Bed button,
+.Bath button{
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+
+.place button{
+    width: 30%;
+    padding: 10px 0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16.5px;
+    letter-spacing: 0.0162em;
+}
+
+.filter .last{
+    margin-bottom: 80px;
+}

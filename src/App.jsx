@@ -9,6 +9,7 @@ import LandlordAccountSuccess from './app/pages/Landlord/AccountSuccess';
 import Onboarding from './app/pages/Onboarding';
 import SignupRole from './app/pages/SignupRole';
 import Access from './app/pages/Access';
+import Filter from './app/pages/FilterPage';
 import Settings from './app/pages/Settings';
 import Loan from './app/pages/Loan/Loan';
 import LoanApplication from './app/pages/Loan/Application';
@@ -35,6 +36,7 @@ function App() {
         <Route path="/access" component={Access} />
         <Route path="/notification" component={Notification} />
         <Route path="/settings" component={Settings} />
+        <Route path="/settings" component={Settings} />
 
         <Route path="/user/profile" component={UserProfile} />
         <Route path="/user/home" component={UserHome} />
@@ -53,6 +55,7 @@ function App() {
         <Route path="/product/recommended" component={Recommendation} />
         <Route path="/product/bookmarked" component={Favourite} />
         <Route path="/product/overview" component={ProductOverview} />
+        <Route path="/product/filter" component={Filter} />
         <Route path="/" component={Onboarding} />
       </Switch>
     </Router>
