@@ -3,6 +3,7 @@ import SignUp from './app/pages/Tenant/SignUp';
 import Login from './app/pages/Tenant/Login';
 import EmailVerify from './app/pages/Tenant/VerifyEmail';
 import AccountSuccess from './app/pages/Tenant/AccountSuccess';
+import TenantManagement from './app/pages/Tenant/Management';
 import LandlordSignUp from './app/pages/Landlord/SignUp';
 import LandlordLogin from './app/pages/Landlord/Login';
 import LandlordAccountSuccess from './app/pages/Landlord/AccountSuccess';
@@ -41,6 +42,7 @@ function App() {
         <Route path="/settings" component={Settings} />
         <Route path="/search" component={Search} />
         <Route path="/product/management" component={ProductManagement} />
+        <Route path="/user/management" component={TenantManagement} />
 
         <Route path="/user/profile" component={UserProfile} />
         <Route path="/user/home" component={UserHome} />
