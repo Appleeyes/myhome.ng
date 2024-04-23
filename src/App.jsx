@@ -11,6 +11,7 @@ import SignupRole from './app/pages/SignupRole';
 import Access from './app/pages/Access';
 import Filter from './app/pages/FilterPage';
 import Settings from './app/pages/Settings';
+import Search from './app/pages/SearchPage';
 import Loan from './app/pages/Loan/Loan';
 import LoanApplication from './app/pages/Loan/Application';
 import LoanProcess from './app/pages/Loan/Process';
@@ -36,7 +37,7 @@ function App() {
         <Route path="/access" component={Access} />
         <Route path="/notification" component={Notification} />
         <Route path="/settings" component={Settings} />
-        <Route path="/settings" component={Settings} />
+        <Route path="/search" component={Search} />
 
         <Route path="/user/profile" component={UserProfile} />
         <Route path="/user/home" component={UserHome} />
