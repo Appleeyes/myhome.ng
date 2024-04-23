@@ -27,7 +27,7 @@ function Profile() {
                         <img src={Activity4} alt="Activity Icon" />
                         <p>Premium Listing</p>
                     </a>
-                    <a href='/product/performance' className='activity-item'>
+                    <a href='/landlord/performance' className='activity-item'>
                         <img src={Activity3} alt="Activity Icon" />
                         <p>Performance and reviews</p>
                     </a>

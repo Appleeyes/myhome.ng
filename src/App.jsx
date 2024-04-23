@@ -7,6 +7,7 @@ import TenantManagement from './app/pages/Tenant/Management';
 import LandlordSignUp from './app/pages/Landlord/SignUp';
 import LandlordLogin from './app/pages/Landlord/Login';
 import LandlordAccountSuccess from './app/pages/Landlord/AccountSuccess';
+import Performance from './app/pages/Landlord/Performance';
 import Onboarding from './app/pages/Onboarding';
 import SignupRole from './app/pages/SignupRole';
 import Access from './app/pages/Access';
@@ -55,6 +56,7 @@ function App() {
         <Route path="/landlord/login" component={LandlordLogin} />
         <Route path="/landlord/profile" component={LandlordProfile} />
         <Route path="/landlord/home" component={LandlordHome} />
+        <Route path="/landlord/performance" component={Performance} />
         <Route path="/landlord/verify-email" component={LandlordEmailVerify} />
         <Route path="/landlord/account-success" component={LandlordAccountSuccess} />
         <Route path="/product/home" component={HomeType} />

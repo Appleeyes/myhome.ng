@@ -8,6 +8,13 @@
     align-items: center;
 }
 
+.product-manage .head p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+
 .manage-buttons {
     display: flex;
     justify-content: space-between;
