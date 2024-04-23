@@ -1,0 +1,155 @@
+.receipt-generation {
+    padding: 20px;
+}
+
+.receipt-generation .head {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+.receipt-generation .head p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+}
+
+.receipt-details {
+    margin: 50px 0;
+}
+
+.receipt-details ul,
+.receipt-body ul {
+    padding: 0;
+}
+
+.receipt-details ul li,
+.receipt-body ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    background-color: #F3F5F8;
+    margin-bottom: 15px;
+    border: 1px solid #C5DCFF;
+}
+
+.receipt-details ul li h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.receipt-details ul li p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.receipt-details Button {
+    width: 100%;
+    background-color: #0165FC;
+    margin: 50px 0;
+}
+
+.receipt {
+    position: relative;
+    margin: 50px 0 100px;
+    background-color: #ECF2FC;
+    padding: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0px 6px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.receipt .circle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.circle span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.circle1 {
+    position: absolute;
+    left: -7%;
+}
+
+.circle2 {
+    position: absolute;
+    right: 0;
+}
+
+
+.receipt-head {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px dotted #D9D9D9;
+}
+
+.receipt-head p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.receipt-body ul li {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+}
+
+.receipt-body h3 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.receipt-body p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.receipt .first {
+    border-bottom: 2px dotted #D9D9D9;
+}
+
+.receipt .second {
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.receipt-body button {
+    background-color: transparent;
+    border: 2px solid #D9D9D9;
+    width: 100%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
