@@ -3,42 +3,41 @@ import '../../assets/css/LandlordProfile.css';
 import Activity1 from '../../assets/images/activity1.svg';
 import Activity2 from '../../assets/images/activity2.svg';
 import Activity3 from '../../assets/images/activity3.png';
+import Activity4 from '../../assets/images/activity4.svg';
 import ProfileMan from '../../assets/images/profile-man.png';
 import Footer from '../../components/Footer';
 
-
 function Profile() {
-    const actions = [
-        { title: "Complete Your Profile", link: "/#" },
-        { title: "Check Your Eligibility Status", link: "/#" },
-        { title: "Upload Document", link: "/#" },
-        { title: "Premium Listing", link: "/#" }
-    ];
-
     return (
         <div className="landlord-profile">
             <ProfileComponent
                 fullName="Bola Ahmad"
+                PhoneNumber="090 XXX XXX XX"
+                EmailAddress="bolaahmed@gmail.com"
+                passwordLink="/settings"
                 imageSrc={ProfileMan}
                 imageAlt="Profile Image"
                 flexLayout={true}
                 additionalContent={[<div className='activity'>
-                    <div className='activity-item'>
+                    <a href='/product/management' className='activity-item'>
                         <img src={Activity1} alt="Activity Icon" />
                         <p>Property Management</p>
-                    </div>
-                    <div className='activity-item'>
-                        <img src={Activity2} alt="Activity Icon" />
-                        <p>Tenant Management</p>
-                    </div>
-                    <div className='activity-item'>
+                    </a>
+                    <a href='/product/premium' className='activity-item'>
+                        <img src={Activity4} alt="Activity Icon" />
+                        <p>Premium Listing</p>
+                    </a>
+                    <a href='/landlord/performance' className='activity-item'>
                         <img src={Activity3} alt="Activity Icon" />
                         <p>Performance and reviews</p>
-                    </div>
+                    </a>
+                    <a href='/user/management' className='activity-item'>
+                        <img src={Activity2} alt="Activity Icon" />
+                        <p>Tenant Management</p>
+                    </a>
                 </div>]}
-                actions={actions}
             />
-            <Footer />
+            <Footer currentRoute={window.location.pathname} />
         </div>
     );
 }

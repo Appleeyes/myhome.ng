@@ -1,0 +1,60 @@
+.search-page {
+    padding: 20px;
+}
+
+.search-page .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-page .head p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+
+.recent-search p {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+}
+
+.recent-search .recent-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0px 6px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.recent-search .recent-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.result img {
+    width: 13px;
+    height: 18.57px;
+}
+
+.recent-left p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin-bottom: 0;
+}
+
+.recent-left span {
+    font-family: Inter;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 9.68px;
+    margin-top: 0;
+}

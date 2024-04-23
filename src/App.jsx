@@ -3,13 +3,17 @@ import SignUp from './app/pages/Tenant/SignUp';
 import Login from './app/pages/Tenant/Login';
 import EmailVerify from './app/pages/Tenant/VerifyEmail';
 import AccountSuccess from './app/pages/Tenant/AccountSuccess';
+import TenantManagement from './app/pages/Tenant/Management';
 import LandlordSignUp from './app/pages/Landlord/SignUp';
 import LandlordLogin from './app/pages/Landlord/Login';
 import LandlordAccountSuccess from './app/pages/Landlord/AccountSuccess';
+import Performance from './app/pages/Landlord/Performance';
 import Onboarding from './app/pages/Onboarding';
 import SignupRole from './app/pages/SignupRole';
 import Access from './app/pages/Access';
+import Filter from './app/pages/FilterPage';
 import Settings from './app/pages/Settings';
+import Search from './app/pages/SearchPage';
 import Loan from './app/pages/Loan/Loan';
 import LoanApplication from './app/pages/Loan/Application';
 import LoanProcess from './app/pages/Loan/Process';
@@ -23,6 +27,8 @@ import Favourite from './app/pages/Favourite';
 import Notification from './app/pages/Notification';
 import ProductOverview from './app/pages/ProductOverview';
 import LandlordEmailVerify from './app/pages/Landlord/VerifyEmail';
+import ProductManagement from './app/pages/Product/Management';
+
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -35,6 +41,9 @@ function App() {
         <Route path="/access" component={Access} />
         <Route path="/notification" component={Notification} />
         <Route path="/settings" component={Settings} />
+        <Route path="/search" component={Search} />
+        <Route path="/product/management" component={ProductManagement} />
+        <Route path="/user/management" component={TenantManagement} />
 
         <Route path="/user/profile" component={UserProfile} />
         <Route path="/user/home" component={UserHome} />
@@ -47,12 +56,14 @@ function App() {
         <Route path="/landlord/login" component={LandlordLogin} />
         <Route path="/landlord/profile" component={LandlordProfile} />
         <Route path="/landlord/home" component={LandlordHome} />
+        <Route path="/landlord/performance" component={Performance} />
         <Route path="/landlord/verify-email" component={LandlordEmailVerify} />
         <Route path="/landlord/account-success" component={LandlordAccountSuccess} />
         <Route path="/product/home" component={HomeType} />
         <Route path="/product/recommended" component={Recommendation} />
         <Route path="/product/bookmarked" component={Favourite} />
         <Route path="/product/overview" component={ProductOverview} />
+        <Route path="/product/filter" component={Filter} />
         <Route path="/" component={Onboarding} />
       </Switch>
     </Router>

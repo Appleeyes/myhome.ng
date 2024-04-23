@@ -1,28 +1,34 @@
-.landlord-profile .activity {
+.activity {
     display: flex;
-    margin-top: 30px;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px;
+    margin: 20px 0;
 }
 
-.activity-item {
+.activity a{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #0165FC;
+}
+
+.activity-item{
+    width: 45%;
+    box-sizing: border-box;
     display: flex;
     background-color: #F3F5F8;
     border-radius: 15px;
     align-items: center;
     flex-direction: column;
-    padding: 0 10px;
+    padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-    width: 300px;
+    margin: 20px 0;
 }
 
-
-
-.activity-item p {
-    font-family: Inter;
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 15px;
-    text-align: center;
-    color: #0165FC;
+.activity-item img {
+    width: 80px;
+    height: 80px;
 }

@@ -12,7 +12,7 @@ function ProductComponent({ PageTitle,
             <div className="products-head">
                 <ArrowBack />
                 <p>{PageTitle}</p>
-                <a href="/#"><img src={Filter} alt="Filter Icon" /></a>
+                <a href="/product/filter"><img src={Filter} alt="Filter Icon" /></a>
             </div>
             <p className="page-result">{PageResult}</p>
             <SearchComponent />

@@ -1,0 +1,105 @@
+.performance {
+    padding: 20px;
+}
+
+.performance .head {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+.performance .head p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.card-container .prop-rev {
+    background-color: #F3F5F8;
+    width: 40%;
+    margin: 20px 0;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0px 6px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-container .rev1 {
+    background-color: #4690FF;
+    color: #fff;
+}
+
+.prop-rev h5,
+.prop-rev p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin: 0 0 5px;
+}
+
+.donutchart {
+    display: flex;
+    align-items: center;
+}
+
+.donut-cont .span {
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.donut-cont .span p,
+.donut-cont h5 {
+    font-family: Roboto;
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: -10px;
+}
+
+.donut-cont .span span {
+    font-size: 30px;
+    color: #4690FF;
+    margin-top: 0;
+    line-height: 22px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.donut-cont .span .span2 {
+    color: #fff;
+}
+
+.donutchart-innertext {
+    display: none;
+}
+
+.react-donut-chart-segment {
+    border-radius: 50%;
+}
+
+.donutchart-legend-item {
+    display: none;
+}
+
+.pie-chart{
+    margin-bottom: 80px;
+}
+
+.pie-chart img{
+    width: 100%;
+}
