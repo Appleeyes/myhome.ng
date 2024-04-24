@@ -23,6 +23,7 @@ import UserHome from './app/pages/Tenant/Homepage';
 import LandlordHome from './app/pages/Landlord/Homepage';
 import ReceiptGeneration from './app/pages/Landlord/ReceiptGeneration';
 import Receipt from './app/pages/Landlord/Receipt';
+import Premium from './app/pages/Product/Premium';
 import HomeType from './app/pages/HomeType';
 import Recommendation from './app/pages/Recommendation';
 import Favourite from './app/pages/Favourite';
@@ -61,6 +62,8 @@ function App() {
         <Route path="/landlord/performance" component={Performance} />
         <Route path="/landlord/verify-email" component={LandlordEmailVerify} />
         <Route path="/landlord/account-success" component={LandlordAccountSuccess} />
+        <Route path="/product/premium" component={Premium} />
+
         <Route path="/payment/generate" component={ReceiptGeneration} />
         <Route path="/payment/receipt" component={Receipt} />
 
@@ -69,6 +72,8 @@ function App() {
         <Route path="/product/bookmarked" component={Favourite} />
         <Route path="/product/overview" component={ProductOverview} />
         <Route path="/product/filter" component={Filter} />
+        <Route path="/product/premium" component={Premium} />
+
         <Route path="/" component={Onboarding} />
       </Switch>
     </Router>

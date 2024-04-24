@@ -17,7 +17,7 @@ function Homepage() {
                     <a href="/landlord/profile"><img src={ProfileWoman} alt="Profile Imge" /></a>
                     <h3>Hello Fade,</h3>
                 </div>
-                <a href="/landlord/profile"><img src={BellIcon} alt="Bell Icon" /></a>
+                <a href="/notification"><img src={BellIcon} alt="Bell Icon" /></a>
             </div>
             <SearchComponent />
             <div className='main-actions'>

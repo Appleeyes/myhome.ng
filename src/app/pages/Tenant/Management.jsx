@@ -92,7 +92,7 @@ function TenantManagement() {
                             <span>26/04/2024 - 26/04/2025</span>
                         </div>
                         <div className='second'>
-                            <p className='rented'>Not Paid</p>
+                            <p className='rented vacant'>Not Paid</p>
                         </div>
                     </div>
                 </div>

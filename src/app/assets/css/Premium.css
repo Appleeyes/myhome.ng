@@ -1,0 +1,134 @@
+.premium {
+    padding: 20px;
+}
+
+.premium .head {
+    display: flex;
+    flex-direction: column;
+}
+
+.premium .head a {
+    align-self: flex-end;
+}
+
+.premium .head img {
+    background-color: #F3F5F8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.premium .head h1 {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.78px;
+    text-align: center;
+    color: #0165FC;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.premium .head p,
+.premium .head span {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+}
+
+.premium .head span {
+    color: #0165FC;
+}
+
+.premium-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.premium-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #1B76FF;
+    border-radius: 30px;
+    position: relative;
+    margin: 40px 0;
+    width: 45%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0px 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.premium-card img {
+    width: 100%
+}
+
+.premium-card p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    width: 20%;
+    margin: 5px auto;
+}
+
+.premium .bottom {
+    background-color: #F3F5F8;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+
+.premium .bottom h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: center;
+    color: #0165FC;
+}
+
+.premium .bottom h4 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+}
+
+.premium .bottom img {
+    width: 20px;
+    height: 20px;
+}
+
+.premium .bottom ul {
+    padding: 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.premium .bottom ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.premium .bottom ul li p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.premium .bottom Button {
+    background-color: #0165FC;
+    margin: 20px 12%;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.23px;
+    width: 75%;
+    padding: 10px 20px;
+}
