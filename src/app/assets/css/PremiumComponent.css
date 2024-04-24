@@ -1,0 +1,96 @@
+.premium-comp {
+    color: #CCCCCC;
+    width: 45%;
+    background-color: #F3F5F8;
+    border: 1px solid #CCCCCC;
+    margin: 20px 0;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0px 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.premium-comp.selected {
+    color: #000;
+    background-color: #EDF4FF;
+    border: 1px solid #4690FF;
+}
+
+.premium-comp h3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+
+.premium-comp.selected h3 {
+    color: #4690FF;
+}
+
+.premium-comp p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    background-color: #CCCCCC;
+    width: 40%;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-radius: 30px;
+}
+
+.premium-comp.selected p {
+    background-color: #4690FF;
+}
+
+.premium-comp ul {
+    padding: 0 5px;
+    margin: 10px auto;
+    width: 95%;
+}
+
+.premium-comp ul li {
+    list-style-type: none;
+    display: flex;
+    background: none;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.premium-comp ul li span {
+    color: #CCCCCC;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.premium-comp.selected ul li span {
+    color: #000;
+}
+
+.premium-comp .select {
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    margin: 8px 0;
+}
+
+.premium-comp.selected .select {
+    background-color: #4690FF;
+}
+
+.premium-comp.selected .select p {
+    color: #fff;
+}
+
+.premium-comp .select p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #CCCCCC;
+    background-color: transparent;
+}

@@ -23,7 +23,8 @@ import UserHome from './app/pages/Tenant/Homepage';
 import LandlordHome from './app/pages/Landlord/Homepage';
 import ReceiptGeneration from './app/pages/Landlord/ReceiptGeneration';
 import Receipt from './app/pages/Landlord/Receipt';
-import Premium from './app/pages/Product/Premium';
+import Premium from './app/pages/Landlord/Premium';
+import PremiumListing from './app/pages/Landlord/PremiumListing';
 import HomeType from './app/pages/HomeType';
 import Recommendation from './app/pages/Recommendation';
 import Favourite from './app/pages/Favourite';
@@ -57,13 +58,13 @@ function App() {
         <Route path="/loan/process" component={LoanProcess} />
         <Route path="/landlord/signup" exact component={LandlordSignUp} />
         <Route path="/landlord/login" component={LandlordLogin} />
-        <Route path="/landlord/profile" component={LandlordProfile} />
+        <Route path="/landlord/dashboard" component={LandlordProfile} />
         <Route path="/landlord/home" component={LandlordHome} />
         <Route path="/landlord/performance" component={Performance} />
         <Route path="/landlord/verify-email" component={LandlordEmailVerify} />
         <Route path="/landlord/account-success" component={LandlordAccountSuccess} />
-        <Route path="/product/premium" component={Premium} />
-
+        <Route path="/landlord/access/get-started" component={PremiumListing} />
+        <Route path="/landlord/access" component={Premium} />
         <Route path="/payment/generate" component={ReceiptGeneration} />
         <Route path="/payment/receipt" component={Receipt} />
 

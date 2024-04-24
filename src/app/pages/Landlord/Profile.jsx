@@ -23,7 +23,7 @@ function Profile() {
                         <img src={Activity1} alt="Activity Icon" />
                         <p>Property Management</p>
                     </a>
-                    <a href='/product/premium' className='activity-item'>
+                    <a href='/product/management' className='activity-item'>
                         <img src={Activity4} alt="Activity Icon" />
                         <p>Premium Listing</p>
                     </a>

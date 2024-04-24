@@ -48,8 +48,8 @@ function SignUp() {
                         <p>Verify Your Email</p>
                     </div>
                     <div className='buttons'>
-                        <a href="/landlord/verify-email">Verify</a>
-                        <a href="/landlord/account-success">Skip</a>
+                        <a className='link' href="/landlord/verify-email">Verify</a>
+                        <a className='link' href="/landlord/account-success">Skip</a>
                     </div>
                 </Modal>
             )}

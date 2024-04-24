@@ -49,7 +49,7 @@ function Premium() {
                         <p>Premium Positioning</p>
                     </li>
                 </ul>
-                <Button link="/#">List on Premium Listing</Button>
+                <Button link="/landlord/access/get-started">List on Premium Listing</Button>
             </div>
             <Footer currentRoute={window.location.pathname} />
         </div>

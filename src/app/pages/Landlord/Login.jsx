@@ -25,7 +25,7 @@ function Login() {
         additionalTagText="Don’t have an account? "
         additionalTagLink="/landlord/signup"
         additionalTagLinkText="Create Account"
-        onSubmit="/landlord/home"
+        onSubmit="/landlord/dashboard"
       />
 
       <div>
