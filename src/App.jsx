@@ -11,6 +11,8 @@ import Performance from './app/pages/Landlord/Performance';
 import Onboarding from './app/pages/Onboarding';
 import SignupRole from './app/pages/SignupRole';
 import Access from './app/pages/Access';
+import TermsAndCondition from './app/pages/TermsAndCondition';
+import PrivacyPolicy from './app/pages/PrivacyPolicy';
 import Filter from './app/pages/FilterPage';
 import Settings from './app/pages/Settings';
 import Search from './app/pages/SearchPage';
@@ -46,9 +48,10 @@ function App() {
         <Route path="/notification" component={Notification} />
         <Route path="/settings" component={Settings} />
         <Route path="/search" component={Search} />
+        <Route path="/terms-and-condition" component={TermsAndCondition} />
+        <Route path="/privacy-policy" component={PrivacyPolicy} />
         <Route path="/product/management" component={ProductManagement} />
         <Route path="/user/management" component={TenantManagement} />
-
         <Route path="/user/profile" component={UserProfile} />
         <Route path="/user/home" component={UserHome} />
         <Route path="/user/verify-email" component={EmailVerify} />
