@@ -8,7 +8,7 @@ function Access() {
       <div className="background-image">
         <div className="text-container">
           <Button link="/user/signup">Sign Up</Button>
-          <Button link="/landlord/login">Log In</Button>
+          <Button link="/user/login">Log In</Button>
         </div>
       </div>
 

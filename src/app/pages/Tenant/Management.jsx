@@ -1,7 +1,6 @@
 import '../../assets/css/PropertyManagement.css';
 import ArrowBack from '../../components/ArrowBackComponent';
 import BellIcon from '../../assets/images/bell.svg';
-import Button from "../../components/ButtonComponent";
 import Woman from '../../assets/images/profile-woman.png';
 import Man from '../../assets/images/profile-man.png';
 import Location from '../../assets/images/location.svg';
@@ -14,10 +13,6 @@ function TenantManagement() {
                 <ArrowBack />
                 <p>Tenant Management</p>
                 <a className='bell' href="/notification"><img src={BellIcon} alt="Bell Icon" /></a>
-            </div>
-            <div className='manage-buttons'>
-                <Button className="button1" link="/product/management">Existing Listing</Button>
-                <Button className="button2" link="/#">Add New Listing</Button>
             </div>
             <div className='manage-container'>
                 <div className='manage-card'>

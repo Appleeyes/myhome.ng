@@ -7,7 +7,7 @@ function OnboardingStep2() {
       <div className="background-image">
         <div className="text-container">
           <h5>Get Loans</h5>
-          <p>Get loans for your accoundation</p>
+          <p>Get loans for your accomodations</p>
         </div>
       </div>
 
