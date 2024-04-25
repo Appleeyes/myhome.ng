@@ -15,7 +15,6 @@ function SignUp() {
         { name: 'fullName', label: 'Full Name', type: 'text' },
         { name: 'phoneName', label: 'Phone Name', type: 'number' },
         { name: 'email', label: 'Email', type: 'email' },
-        { name: 'username', label: 'Username', type: 'text' },
         { name: 'password', label: 'Password', type: 'password' },
         { name: 'confirmPassword', label: 'Confirm Password', type: 'password' },
     ];
@@ -48,8 +47,8 @@ function SignUp() {
                         <p>Verify Your Email</p>
                     </div>
                     <div className='buttons'>
-                        <a href="/landlord/verify-email">Verify</a>
-                        <a href="/landlord/account-success">Skip</a>
+                        <a className='link' href="/landlord/verify-email">Verify</a>
+                        <a className='link' href="/landlord/account-success">Skip</a>
                     </div>
                 </Modal>
             )}

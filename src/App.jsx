@@ -11,6 +11,8 @@ import Performance from './app/pages/Landlord/Performance';
 import Onboarding from './app/pages/Onboarding';
 import SignupRole from './app/pages/SignupRole';
 import Access from './app/pages/Access';
+import TermsAndCondition from './app/pages/TermsAndCondition';
+import PrivacyPolicy from './app/pages/PrivacyPolicy';
 import Filter from './app/pages/FilterPage';
 import Settings from './app/pages/Settings';
 import Search from './app/pages/SearchPage';
@@ -23,7 +25,13 @@ import UserHome from './app/pages/Tenant/Homepage';
 import LandlordHome from './app/pages/Landlord/Homepage';
 import ReceiptGeneration from './app/pages/Landlord/ReceiptGeneration';
 import Receipt from './app/pages/Landlord/Receipt';
+import Premium from './app/pages/Landlord/Premium';
+import PremiumListing from './app/pages/Landlord/PremiumListing';
 import HomeType from './app/pages/HomeType';
+import PaymentMethod from './app/pages/Payment';
+import Paystack from './app/pages/Paystack';
+import PaymentLoad from './app/pages/PaymentLoad';
+import PaymentComplete from './app/pages/PaymentComplete';
 import Recommendation from './app/pages/Recommendation';
 import Favourite from './app/pages/Favourite';
 import Notification from './app/pages/Notification';
@@ -44,9 +52,10 @@ function App() {
         <Route path="/notification" component={Notification} />
         <Route path="/settings" component={Settings} />
         <Route path="/search" component={Search} />
+        <Route path="/terms-and-condition" component={TermsAndCondition} />
+        <Route path="/privacy-policy" component={PrivacyPolicy} />
         <Route path="/product/management" component={ProductManagement} />
         <Route path="/user/management" component={TenantManagement} />
-
         <Route path="/user/profile" component={UserProfile} />
         <Route path="/user/home" component={UserHome} />
         <Route path="/user/verify-email" component={EmailVerify} />
@@ -56,19 +65,26 @@ function App() {
         <Route path="/loan/process" component={LoanProcess} />
         <Route path="/landlord/signup" exact component={LandlordSignUp} />
         <Route path="/landlord/login" component={LandlordLogin} />
-        <Route path="/landlord/profile" component={LandlordProfile} />
+        <Route path="/landlord/dashboard" component={LandlordProfile} />
         <Route path="/landlord/home" component={LandlordHome} />
         <Route path="/landlord/performance" component={Performance} />
         <Route path="/landlord/verify-email" component={LandlordEmailVerify} />
         <Route path="/landlord/account-success" component={LandlordAccountSuccess} />
+        <Route path="/landlord/access/get-started" component={PremiumListing} />
+        <Route path="/landlord/access" component={Premium} />
         <Route path="/payment/generate" component={ReceiptGeneration} />
         <Route path="/payment/receipt" component={Receipt} />
-
+        <Route path="/payment/completed" component={PaymentComplete} />
+        <Route path="/payment/load" component={PaymentLoad} />
+        <Route path="/payment/paystack" component={Paystack} />
+        <Route path="/payment" component={PaymentMethod} />
         <Route path="/product/home" component={HomeType} />
         <Route path="/product/recommended" component={Recommendation} />
         <Route path="/product/bookmarked" component={Favourite} />
         <Route path="/product/overview" component={ProductOverview} />
         <Route path="/product/filter" component={Filter} />
+        <Route path="/product/premium" component={Premium} />
+
         <Route path="/" component={Onboarding} />
       </Switch>
     </Router>

@@ -8,7 +8,7 @@ function SignupRole() {
       <div className="background-image">
         <div className="text-container">
           <h5>Are you</h5>
-          <Button link="/access">Land Lord</Button>
+          <Button link="/landlord/access">Land Lord</Button>
           <Button link="/access">Tenant</Button>
         </div>
       </div>

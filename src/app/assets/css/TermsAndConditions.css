@@ -17,7 +17,7 @@
     display: none;
 }
 
-.terms-and-conditions label input[type="checkbox"] + span {
+.terms-and-conditions label input[type="checkbox"]+span {
     display: inline-block;
     width: 18px;
     height: 14px;
@@ -26,7 +26,7 @@
     margin-right: 10px;
 }
 
-.terms-and-conditions label input[type="checkbox"]:checked + span {
+.terms-and-conditions label input[type="checkbox"]:checked+span {
     background-color: #0165FC;
 }
 
@@ -34,4 +34,30 @@
     color: #0165FC;
     margin-left: 5px;
     text-decoration: none;
+}
+
+.terms-container {
+    padding: 20px;
+}
+
+.terms-container .head {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    padding: 20px;
+}
+
+.terms-container .head p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+
+.terms-container ol li {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin-bottom: 20px;
 }

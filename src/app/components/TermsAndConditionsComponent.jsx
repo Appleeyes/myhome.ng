@@ -19,7 +19,7 @@ function TermsAndConditions() {
                 <span></span>
                 <p className={isChecked ? 'checked' : ''}>
                     By clicking on Create Account you are agreeing to our{' '}
-                    <a href="/terms" target="_blank" rel="noopener noreferrer">
+                    <a href="/terms-and-condition" rel="noopener noreferrer">
                         terms and conditions
                     </a>
                 </p>

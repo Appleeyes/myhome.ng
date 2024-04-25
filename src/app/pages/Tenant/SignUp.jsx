@@ -15,7 +15,6 @@ function SignUp() {
         { name: 'fullName', label: 'Full Name', type: 'text' },
         { name: 'phoneName', label: 'Phone Name', type: 'number' },
         { name: 'email', label: 'Email', type: 'email' },
-        { name: 'username', label: 'Username', type: 'text' },
         { name: 'password', label: 'Password', type: 'password' },
         { name: 'confirmPassword', label: 'Confirm Password', type: 'password' },
     ];
