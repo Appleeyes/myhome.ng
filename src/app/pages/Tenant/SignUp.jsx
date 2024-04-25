@@ -13,7 +13,7 @@ function SignUp() {
 
     const fields = [
         { name: 'fullName', label: 'Full Name', type: 'text' },
-        { name: 'phoneName', label: 'Phone Name', type: 'number' },
+        { name: 'phoneNumber', label: 'Phone Number', type: 'number' },
         { name: 'email', label: 'Email', type: 'email' },
         { name: 'password', label: 'Password', type: 'password' },
         { name: 'confirmPassword', label: 'Confirm Password', type: 'password' },
