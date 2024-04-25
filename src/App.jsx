@@ -31,6 +31,7 @@ import HomeType from './app/pages/HomeType';
 import PaymentMethod from './app/pages/Payment';
 import Paystack from './app/pages/Paystack';
 import PaymentLoad from './app/pages/PaymentLoad';
+import PaymentComplete from './app/pages/PaymentComplete';
 import Recommendation from './app/pages/Recommendation';
 import Favourite from './app/pages/Favourite';
 import Notification from './app/pages/Notification';
@@ -73,6 +74,7 @@ function App() {
         <Route path="/landlord/access" component={Premium} />
         <Route path="/payment/generate" component={ReceiptGeneration} />
         <Route path="/payment/receipt" component={Receipt} />
+        <Route path="/payment/completed" component={PaymentComplete} />
         <Route path="/payment/load" component={PaymentLoad} />
         <Route path="/payment/paystack" component={Paystack} />
         <Route path="/payment" component={PaymentMethod} />

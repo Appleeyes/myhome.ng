@@ -9,7 +9,7 @@ function PaymentLoad() {
 
     useEffect(() => {
         const redirectTimeout = setTimeout(() => {
-            history.push('/payment/paystack');
+            history.push('/payment/completed');
         }, 4000);
 
         return () => clearTimeout(redirectTimeout);
