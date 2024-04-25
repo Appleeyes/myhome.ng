@@ -28,6 +28,9 @@ import Receipt from './app/pages/Landlord/Receipt';
 import Premium from './app/pages/Landlord/Premium';
 import PremiumListing from './app/pages/Landlord/PremiumListing';
 import HomeType from './app/pages/HomeType';
+import PaymentMethod from './app/pages/Payment';
+import Paystack from './app/pages/Paystack';
+import PaymentLoad from './app/pages/PaymentLoad';
 import Recommendation from './app/pages/Recommendation';
 import Favourite from './app/pages/Favourite';
 import Notification from './app/pages/Notification';
@@ -70,7 +73,9 @@ function App() {
         <Route path="/landlord/access" component={Premium} />
         <Route path="/payment/generate" component={ReceiptGeneration} />
         <Route path="/payment/receipt" component={Receipt} />
-
+        <Route path="/payment/load" component={PaymentLoad} />
+        <Route path="/payment/paystack" component={Paystack} />
+        <Route path="/payment" component={PaymentMethod} />
         <Route path="/product/home" component={HomeType} />
         <Route path="/product/recommended" component={Recommendation} />
         <Route path="/product/bookmarked" component={Favourite} />
