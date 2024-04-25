@@ -7,7 +7,7 @@ function VerifyEmail() {
             <VerificationComponent
             verifying="Email"
             destination="email"
-            contact="fadejames@gmail.com"
+            contact="bolaahmed@gmail.com"
             action="/landlord/account-success"
             link="/landlord/verify-email"
             />
